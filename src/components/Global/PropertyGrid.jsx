@@ -94,7 +94,7 @@ export default function PropertyGrid() {
                 ))}
             </div>
 
-            <div className="flex justify-center mt-8">
+            <div className="flex justify-center my-12">
                 <button className="bg-[#1A1F3B] text-white px-8 py-3 rounded-full font-medium flex items-center gap-2 hover:bg-green-600">
                     See More <span>
                         <Image src="/global/right.svg" width={8} height={8} alt='See More' />

@@ -1,4 +1,5 @@
 import ListingHeader from "@/components/Filters/Filters";
+import LocationGrid from "@/components/Global/Locations/LocationGrid";
 import PropertyGrid from "@/components/Global/PropertyGrid";
 import FeatureCards from "@/components/Header/FeatureCards";
 import HeroSection from "@/components/Home/Hero";
@@ -11,6 +12,7 @@ export default function Home() {
       <FeatureCards />
       <ListingHeader />
       <PropertyGrid />
+      <LocationGrid />
     </>
   );
 }

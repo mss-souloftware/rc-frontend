@@ -11,7 +11,7 @@ export default function ListingHeader() {
             <div className="container mx-auto">
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between py-4 gap-4">
                     {/* Title */}
-                    <h2 className="text-xl font-semibold text-gray-800">For rent</h2>
+                    <h2 className="text-2xl font-semibold text-gray-800">For rent</h2>
 
                     {/* Controls */}
                     <div className="flex flex-wrap gap-3 items-center">
