@@ -6,7 +6,7 @@ import Header from '../Header/Header';
 
 export default function HeroSection() {
     return (
-        <section className="relative w-full bg-cover bg-center pt-5 pb-40" style={{ backgroundImage: 'url(/images/canberra-bg.jpg)' }}>
+        <section className="relative w-full bg-cover bg-center pt-5 pb-30" style={{ backgroundImage: 'url(/images/canberra-bg.jpg)' }}>
             <div className="container mx-auto">
                 <Header />
                 {/* Hero Content */}
@@ -18,23 +18,30 @@ export default function HeroSection() {
                         Find Rent In Canberra
                     </h1>
                     <p className="text-xl mb-6">rent-canberra.com.au</p>
-                    <Button className="bg-green-600 hover:bg-green-700 px-6 py-3 rounded-full text-lg font-semibold">
-                        Browse Canberra
-                    </Button>
+                    <div className='flex justify-between w-full'>
+                        <div>
+                            <Button className="bg-green-600 hover:bg-green-700 px-6 py-3 rounded-full text-lg font-semibold">
+                                Browse Canberra
+                            </Button>
+                        </div>
+                        {/* Search Bar */}
+                        <div className="   w-[30%] bg-black/20 backdrop-blur-lg rounded-full p-2 flex items-center justify-between">
+                            <div className="pl-4">
+                                <p className="text-sm font-medium text-white">Address</p>
+                                <div className='flex items-center gap-x-1'>
+                                    <span><FaSearchLocation className="mr-1 text-red-400" /></span>
+
+                                    <span>  <input className='text-white border-0 outline-none w-full placeholder-white text-[16px]' placeholder='Enter destination' type="text" name="" id="" /></span>
+                                </div>
+                            </div>
+                            <div className="bg-green-600 hover:bg-green-700 p-3 rounded-full cursor-pointer">
+                                <FaSearchLocation className="text-white text-xl" />
+                            </div>
+                        </div>
+                    </div>
                 </div>
 
-                {/* Search Bar */}
-                <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 w-[90%] md:w-2/3 lg:w-1/2 bg-black/50 backdrop-blur-lg rounded-full p-2 flex items-center justify-between">
-                    <div className="pl-4">
-                        <p className="text-sm font-medium text-white">Address</p>
-                        <p className="text-white text-xs flex items-center">
-                            <FaSearchLocation className="mr-1 text-red-400" /> Enter destination
-                        </p>
-                    </div>
-                    <div className="bg-green-600 hover:bg-green-700 p-3 rounded-full cursor-pointer">
-                        <FaSearchLocation className="text-white text-xl" />
-                    </div>
-                </div>
+
             </div>
         </section>
     );

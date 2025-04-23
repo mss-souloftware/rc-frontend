@@ -4,6 +4,7 @@ import PropertyGrid from "@/components/Global/PropertyGrid";
 import FeatureCards from "@/components/Header/FeatureCards";
 import HeroSection from "@/components/Home/Hero";
 import Image from "next/image";
+import ReadyToRentSection from "@/components/Home/ReadyToRentSection";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <ListingHeader />
       <PropertyGrid />
       <LocationGrid />
+      <ReadyToRentSection />
     </>
   );
 }
