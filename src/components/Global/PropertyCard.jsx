@@ -33,7 +33,7 @@ export default function PropertyCard({
                 <p className="font-bold xl:text-xl text-md">${price} <span className="text-sm font-normal text-gray-400">/ week</span></p>
                 <p className="text-gray-600 text-sm xl:text-base md:py-1 py-2">{address}</p>
 
-                <div className="flex xl:gap-4 gap-2 flex-wrap text-gray-600 mt-2">
+                <div className="flex xl:gap-4 gap-2 flex-wrap text-gray-600 mt-2 md:justify-start justify-center">
                     <span className='flex gap-1.5'><Image src="/global/bedroom.svg" width={15} height={15} alt='Bedrooms' /> {bedrooms} Bedrooms</span>
                     <span className='flex gap-1.5'><Image src="/global/bath.svg" width={15} height={15} alt='Bath' /> {bathrooms} Bath</span>
                     <span className='flex gap-1.5'><Image src="/global/parking.svg" width={15} height={15} alt='Parking' /> {parks} Parking</span>
