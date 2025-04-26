@@ -70,17 +70,18 @@ const Header = () => {
 
                 {/* Desktop Action Buttons - hidden on mobile/tablet */}
                 <div className="hidden lg:flex items-center space-x-3">
-                <Link href="/listproperty">
-                    <Button  className=" cursor-pointer inline-flex items-center justify-center font-small transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2  hover:!bg-[#202A54] text-white rounded-full px-4 py-3">
+                    <Link href="/listproperty">
+                    <Button variant="grayTrans" className="px-4 py-3 cursor-pointer">
                         List your home
                     </Button>
                     </Link>
-                    <Button  className="inline-flex items-center justify-center font-small transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2 !bg-[#202A54] hover:!bg-green-600 text-white rounded-full px-4 py-3">
+                   
+                    <Button variant="grayTrans" className="px-4 py-3">
                         Sign Up
                     </Button>
                     <div className="flex items-center justify-center space-x-2 rounded-full bg-white px-3 py-2 shadow">
                         <TbGridDots className="text-gray-600 text-xl" />
-                        <FaUserCircle className="text-[#91A6B7] text-3xl" />
+                        <FaUserCircle className="text-green-600 text-3xl" />
                     </div>
                 </div>
 

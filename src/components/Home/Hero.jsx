@@ -2,7 +2,7 @@ import Image from 'next/image';
 import { FaSearchLocation } from 'react-icons/fa';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
-import Header from '../Header/Header';
+import Header from '../HeaderForHome/Header';
 
 export default function HeroSection() {
     return (
