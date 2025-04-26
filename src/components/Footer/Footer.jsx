@@ -3,17 +3,17 @@ import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer className="bg-[#1F254F] text-white py-[48px] px-6 md:px-16">
+        <footer className="bg-[#1F254F] text-white py-[48px] text-center md:text-left px-5">
             <div className="container mx-auto">
-                <div className="grid grid-cols-1 md:grid-cols-5 gap-8 text-sm mb-8">
-                    <div className="md:col-span-1 font-bold text-[18px]">
+                <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 lg:gap-8 gap-5 gap-y-8 text-sm mb-8">
+                    <div className="lg:col-span-1 md:col-span-4 col-span-2 font-bold xl:text-[18px] lg:text-[14px] text-[18px] lg:mb-0 mb-5">
                         <Link href='/'>
                             rent-canberra.com.au
                         </Link>
                     </div>
 
                     <div>
-                        <h5 className="font-semibold mb-3 text-[#F7F8FC] text-[16px]">Quick Links</h5>
+                        <h5 className="font-semibold mb-3 text-[#F7F8FC] lg:text-[16px] text-[14px]">Quick Links</h5>
                         <ul className="space-y-2 text-[#9098A5]">
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About us</a></li>
@@ -23,7 +23,7 @@ export default function Footer() {
                     </div>
 
                     <div>
-                        <h5 className="font-semibold mb-3 text-[#F7F8FC] text-[16px]">Properties</h5>
+                        <h5 className="font-semibold mb-3 text-[#F7F8FC] lg:text-[16px] text-[14px]">Properties</h5>
                         <ul className="space-y-2 text-[#9098A5]">
                             <li><a href="#">Featured Listings</a></li>
                             <li><a href="#">For Sale</a></li>
@@ -33,7 +33,7 @@ export default function Footer() {
                     </div>
 
                     <div>
-                        <h5 className="font-semibold mb-3 text-[#F7F8FC] text-[16px]">Legal</h5>
+                        <h5 className="font-semibold mb-3 text-[#F7F8FC] lg:text-[16px] text-[14px]">Legal</h5>
                         <ul className="space-y-2 text-[#9098A5]">
                             <li><a href="#">Terms & Conditions</a></li>
                             <li><a href="#">Privacy Policy</a></li>
@@ -42,11 +42,11 @@ export default function Footer() {
                     </div>
 
                     <div>
-                        <h5 className="font-semibold mb-3 text-[#F7F8FC] text-[16px]">Stay connected with us!</h5>
-                        <div className="flex space-x-2 items-center text-white">
+                        <h5 className="font-semibold mb-3 text-[#F7F8FC] lg:text-[16px] text-[14px]">Stay connected with us!</h5>
+                        <div className="flex space-x-2 items-center justify-center md:justify-left text-white">
                             <a href="#">
 
-                                <svg width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg  width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g clip-path="url(#clip0_157_3060)">
                                         <path d="M21.0834 0.0263672H6.91675C3.46497 0.0263672 0.666748 2.82459 0.666748 6.27637V20.443C0.666748 23.8948 3.46497 26.693 6.91675 26.693H21.0834C24.5352 26.693 27.3334 23.8948 27.3334 20.443V6.27637C27.3334 2.82459 24.5352 0.0263672 21.0834 0.0263672Z" fill="white" />
                                         <path d="M21.0834 0.0263672H6.91675C3.46497 0.0263672 0.666748 2.82459 0.666748 6.27637V20.443C0.666748 23.8948 3.46497 26.693 6.91675 26.693H21.0834C24.5352 26.693 27.3334 23.8948 27.3334 20.443V6.27637C27.3334 2.82459 24.5352 0.0263672 21.0834 0.0263672Z" fill="white" />
@@ -81,12 +81,12 @@ export default function Footer() {
 
                 <hr className="border-[#9098A5] mb-6 mt-4" />
 
-                <p className="text-[16px] text-[#9098A5] mb-2">
+                <p className="xl:text-[16px] text-[14px] text-[#9098A5] mb-2">
                     rent-canberra acknowledges the Ngunnawal and Ngambri peoples as the Traditional Custodians of the land on which we live and work.
                     We pay our respects to Elders past and present, and extend that respect to all Aboriginal and Torres Strait Islander peoples.
                 </p>
 
-                <p className="text-[16px] mt-5 text-[#9098A5]">
+                <p className="xl:text-[16px] text-[14px] mt-5 text-[#9098A5]">
                     © 2025 rent-canberra. All rights reserved.
                 </p>
             </div>

@@ -7,16 +7,16 @@ export default function ListingHeader() {
     const [sortBy, setSortBy] = useState('Newest');
 
     return (
-        <div className="w-full pb-16">
-            <div className="container mx-auto">
-                <div className="flex flex-col md:flex-row md:items-center md:justify-between py-4 gap-4">
+        <div className="w-full xl:pb-16 pb-5" >
+            <div className="container mx-auto px-5">
+                <div className="flex flex-col md:flex-row items-center md:justify-between py-4 gap-4">
                     {/* Title */}
                     <h2 className="text-2xl font-semibold text-gray-800">For rent</h2>
 
                     {/* Controls */}
                     <div className="flex flex-wrap gap-3 items-center">
                         {/* Filter Button */}
-                        <button className="flex items-center gap-2 bg-white text-sm font-medium text-gray-800 border border-gray-200 rounded-xl px-4 py-2 shadow-sm hover:bg-gray-50">
+                        <button className="flex flex-1 items-center gap-2 bg-white text-sm font-medium text-gray-800 border border-gray-200 rounded-xl px-4 py-2 shadow-sm hover:bg-gray-50">
                             <Filter className="w-4 h-4" />
                             Filter
                         </button>

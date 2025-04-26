@@ -87,15 +87,15 @@ export default function PropertyGrid() {
     ];
 
     return (
-        <div className="container mx-auto">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="container mx-auto px-5">
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:gap-8 gap-5">
                 {listings.map((property, index) => (
                     <PropertyCard key={index} {...property} />
                 ))}
             </div>
 
             <div className="flex justify-center my-12">
-                <button className="bg-[#1A1F3B] text-white px-8 py-3 rounded-full font-medium flex items-center gap-2 hover:bg-green-600">
+                <button className="bg-[#1A1F3B] text-white px-8  text-sm py-3 rounded-full font-medium flex items-center gap-2 hover:bg-green-600">
                     See More <span>
                         <Image src="/global/right.svg" width={8} height={8} alt='See More' />
                     </span>

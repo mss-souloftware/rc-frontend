@@ -16,7 +16,7 @@ export default function PropertyCard({
     return (
         <div className="bg-white rounded-2xl hover:shadow-lg transition">
             {/* Image + Favorite */}
-            <div className="relative w-full h-[280px] rounded-2xl overflow-hidden">
+            <div className="relative w-full xl:h-[280px] h-[200px] rounded-2xl overflow-hidden">
                 <Image
                     src={imageUrl}
                     alt="Property"
@@ -29,11 +29,11 @@ export default function PropertyCard({
             </div>
 
             {/* Details */}
-            <div className="p-4 text-sm text-gray-800">
-                <p className="font-bold text-xl">${price} <span className="text-sm font-normal text-gray-400">/ week</span></p>
-                <p className="text-gray-600 text-base">{address}</p>
+            <div className="xl:p-4 p-2 pt-3 text-sm text-gray-800 md:text-left text-center">
+                <p className="font-bold xl:text-xl text-md">${price} <span className="text-sm font-normal text-gray-400">/ week</span></p>
+                <p className="text-gray-600 text-sm xl:text-base md:py-1 py-2">{address}</p>
 
-                <div className="flex gap-4  text-gray-600 mt-2">
+                <div className="flex xl:gap-4 gap-2 flex-wrap text-gray-600 mt-2">
                     <span className='flex gap-1.5'><Image src="/global/bedroom.svg" width={15} height={15} alt='Bedrooms' /> {bedrooms} Bedrooms</span>
                     <span className='flex gap-1.5'><Image src="/global/bath.svg" width={15} height={15} alt='Bath' /> {bathrooms} Bath</span>
                     <span className='flex gap-1.5'><Image src="/global/parking.svg" width={15} height={15} alt='Parking' /> {parks} Parking</span>
@@ -43,7 +43,7 @@ export default function PropertyCard({
                     <div className="w-6 h-6 rounded-full bg-gray-100 flex items-center justify-center text-[10px] font-bold text-gray-400">
                         {agent.split(" ").map(n => n[0]).join("")}
                     </div>
-                    <span>{agency} | {agent}</span>
+                    <span className='md:text-[12px] text-[10px]'>{agency} | {agent}</span>
                 </div>
             </div>
         </div>
