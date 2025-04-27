@@ -3,7 +3,7 @@ import React from 'react'
 
 export default function Nav() {
     return (
-        <nav className="flex lg:items-center space-x-8 space-y-3 lg:flex-row flex-col font-medium">
+        <nav className="flex lg:items-center space-x-8 space-y-5 gap-y-3 lg:flex-row flex-col font-medium">
             <Link href="/" className="hover:text-green-600 mb-0">Homes</Link>
             <Link href="/rent" className="hover:text-green-600 mb-0">🏠 Rent</Link>
             <Link href="/tenants" className="hover:text-green-600 mb-0">👤 For Tenants</Link>

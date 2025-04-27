@@ -5,7 +5,7 @@ import React from 'react'
 export default function Logo() {
     return (
         <Link href="/" className="shrink-0">
-            <Image className='md:w-auto w-[180px]' src="/global/logo.svg" width={250} height={40} alt="Logo" />
+            <Image className='xl:w-auto w-[180px]' src="/global/logo.svg" width={250} height={40} alt="Logo" />
         </Link>
     )
 }

@@ -58,7 +58,7 @@ const Header = () => {
     };
 
     return (
-        <header className="w-full py-4 relative z-50">
+        <header className="w-full py-4 relative z-50 px-5">
             <div className="container mx-auto flex items-center justify-between">
                 <div className="flex items-center xl:gap-12 gap-5">
                     <Logo />
@@ -93,9 +93,9 @@ const Header = () => {
                         aria-label="Toggle menu"
                     >
                         {isMobileMenuOpen ? (
-                            <IoMdClose className="text-2xl text-white" />
+                            <IoMdClose className="text-2xl text-black" />
                         ) : (
-                            <RiMenu3Line className="text-2xl text-white" />
+                            <RiMenu3Line className="text-2xl text-black" />
                         )}
                     </button>
                 </div>
