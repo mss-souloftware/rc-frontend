@@ -1,35 +1,56 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
 
-export default function FeatureCards() {
-    return (
-        <div className="w-full md:py-16 py-10">
-            <div className="container mx-auto px-5">
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                    {/* Card 1 */}
-                    <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col md:items-start items-center md:space-y-4 space-y-2">
-                        <div className="w-20 h-20">
-                            <img src="/global/featured1.svg" alt="List Property" className="w-full h-full object-contain" />
-                        </div>
-                        <h3 className="xl:text-3xl lg:text-2xl text-md font-medium text-gray-800 md:text-left text-center">List your property in minutes.</h3>
-                        <button className="bg-[#1A1F3B] text-white px-7 text-sm py-3 mt-5 inline-block rounded-full font-medium shadow-sm hover:bg-green-600">
-                            List Your Property
-                        </button>
-                    </div>
+const FutureCard = () => {
+  return (
+    <div className="container mx-auto md:py-8 py-0 px-5">
+      <div className="flex justify-between md:flex-nowrap flex-wrap gap-y-3 space-x-4">
 
-                    {/* Card 2 */}
-                    <div className="bg-white rounded-2xl shadow-lg p-6 flex flex-col md:items-start items-center md:space-y-4 space-y-2">
-                        <div className="w-20 h-20">
-                            <img src="/global/featured2.svg" alt="View Listings" className="w-full h-full object-contain" />
-                        </div>
-                        <h3 className="xl:text-3xl lg:text-2xl text-md font-medium text-gray-800 md:text-left text-center">
-                            Homes for rent <span className="text-green-600">all in one</span> platform for Canberra
-                        </h3>
-                        <button className="bg-[#1A1F3B] text-white text-sm px-7 py-3 mt-5 inline-block rounded-full font-medium shadow-sm hover:bg-green-600">
-                            View Listings
-                        </button>
-                    </div>
-                </div>
+        {/* Card 1 - Find Your Rental */}
+        <div className="flex  items-center justify-between bg-white  rounded-[16px] shadow-md md:w-1/2 w-full mr-0 md:mr-4">
+          <div className="flex items-center lg:p-6 p-2">
+            <div className=" flex items-center justify-center">
+              <Image
+                src="/images/rental-icon.png"
+                alt="Find Rental"
+                width={120}
+                height={120}
+                className="object-contain lg:w-[120px] w-auto"
+              />
             </div>
+            <span className="sm:ml-4 ml-2 xl:text-2xl md:text-md text-sm text-[#353743] font-semibold">Find Your Rental</span>
+          </div>
+          <div>
+            <button className="bg-[#202A54] cursor-pointer hover:bg-[#2C9143] lg:text-[18px] sm:text-[14px] text-[12px] font-bold xl:px-[42px] md:px-[15px] px-[25px] rounded-tr-[16px] rounded-br-[16px] lg:h-[168px] sm:h-[80px] h-[60px] text-white  py-2 rounded text-sm">
+              View Rentals
+            </button>
+          </div>
         </div>
-    );
-}
+
+        {/* Card 2 - List Your Property */}
+        <div className="flex items-center justify-between bg-white  rounded-[16px] shadow-md md:w-1/2 w-full">
+          <div className="flex items-center lg:p-6 p-2">
+            <div className=" flex items-center justify-center">
+              <Image
+                src="/images/property-icon.png"
+                alt="Find Rental"
+                width={120}
+                height={120}
+                className="object-contain lg:w-[120px] w-auto"
+              />
+            </div>
+            <span className="sm:ml-4 ml-2 xl:text-2xl md:text-md text-sm text-[#353743] font-semibold">List Your Property</span>
+          </div>
+          <div>
+            <button className="bg-[#202A54] cursor-pointer hover:bg-[#2C9143] lg:text-[18px] sm:text-[14px] text-[12px] font-bold xl:px-[42px] md:px-[15px] px-[25px]  rounded-tr-[16px] rounded-br-[16px] lg:h-[168px] sm:h-[80px] h-[60px] text-white  py-2 rounded text-sm">
+            List a Rental
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  );
+};
+
+export default FutureCard;

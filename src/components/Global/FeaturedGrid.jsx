@@ -13,7 +13,7 @@ import 'swiper/css/pagination';
 // Add custom styles for Swiper navigation
 import { useEffect } from 'react';
 
-export default function PropertyGrid() {
+export default function FeaturedGrid() {
     // Add custom CSS for Swiper navigation buttons
     useEffect(() => {
         // Hide default Swiper navigation arrows
@@ -36,7 +36,7 @@ export default function PropertyGrid() {
     }, []);
     const listings = [
         {
-            imageUrl: "/properties/house1.jpg",
+            imageUrl: "/properties/f1.png",
             price: "650",
             address: "503/16 Lonsdale Street, Braddon",
             bedrooms: 2,
@@ -47,7 +47,7 @@ export default function PropertyGrid() {
             type: "Apartment",
         },
         {
-            imageUrl: "/properties/a2.png",
+            imageUrl: "/properties/f2.png",
             price: "650",
             address: "503/16 Lonsdale Street, Braddon",
             bedrooms: 2,
@@ -58,7 +58,7 @@ export default function PropertyGrid() {
             type: "Shared",
         },
         {
-            imageUrl: "/properties/a3.png",
+            imageUrl: "/properties/f3.png",
             price: "650",
             address: "503/16 Lonsdale Street, Braddon",
             bedrooms: 2,
@@ -67,24 +67,13 @@ export default function PropertyGrid() {
             agency: "Independent Property Group",
             agent: "Antoni Francki",
             type: "Apartment",
-        },
-        {
-            imageUrl: "/properties/a4.png",
-            price: "650",
-            address: "503/16 Lonsdale Street, Braddon",
-            bedrooms: 2,
-            bathrooms: 1,
-            parks: 2,
-            agency: "Independent Property Group",
-            agent: "Antoni Francki",
-            type: "Shared",
         },
       
     ];
 
     return (
         <div className="container mx-auto px-5 sm:py-[40px] pb-0 pt-[40px]">
-              <h2 className="md:text-2xl sm:text-xl text-md font-semibold text-gray-800 md:mb-5 mb-2 md:text-left text-center">Just Added </h2>
+              <h2 className="md:text-2xl sm:text-xl text-md font-semibold text-gray-800 md:mb-5 mb-2 md:text-left text-center">Featured Listing </h2>
             {/* Swiper Component */}
             <SwiperComponent
                 modules={[Navigation, Pagination, A11y]}
@@ -110,10 +99,6 @@ export default function PropertyGrid() {
                     1024: {
                         slidesPerView: 3,
                         spaceBetween: 30,
-                    },
-                    1100: {
-                        slidesPerView: 4,
-                        spaceBetween: 30,
                     }
                 }}
             >
@@ -134,7 +119,13 @@ export default function PropertyGrid() {
                 </div>
             </div>
             
-           
+            <div className="flex justify-center xl:my-12 my-6">
+                <button className="bg-[#1A1F3B] text-white px-8 text-sm py-3 rounded-full font-medium flex items-center gap-2 hover:bg-green-600">
+                    See More <span>
+                        <Image src="/global/right.svg" width={8} height={8} alt='See More' />
+                    </span>
+                </button>
+            </div>
         </div>
     );
 }

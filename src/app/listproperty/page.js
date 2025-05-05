@@ -1,5 +1,5 @@
 "use client"
-import Header from "@/components/Header/Header";
+
 import Image from "next/image";
 import Link from "next/link";
 import Logo from "@/components/Header/Logo";
@@ -8,7 +8,7 @@ import TenantFilter from "@/components/ListProperty/TenantFilter";
 export default function ListProperty() {
   return (
     <>
-      <Header />
+      
       <div className="flex flex-col min-h-screen bg-white">
 
         {/* Hero Section */}
@@ -25,7 +25,7 @@ export default function ListProperty() {
             {/* <div className="absolute container mx-auto inset-0 bg-black bg-opacity-40"></div> */}
           </div>
           <div className="relative flex items-center justify-center h-full">
-            <h1 className="text-2xl sm:text-3xl xl:text-4xl font-bold text-white text-center">
+            <h1 className="text-xl sm:text-3xl xl:text-4xl font-bold text-white text-center">
               List Your home for rent
             </h1>
           </div>
@@ -33,7 +33,7 @@ export default function ListProperty() {
 
         {/* As Seen On Section */}
         <section className="py-8 sm:py-10 md:py-12 container mx-auto w-full px-4 sm:px-6 ">
-          <h2 className="text-2xl sm:text-2xl md:text-3xl text-[#222934] font-bold text-center mb-6 sm:mb-8 md:mb-12">As Seen On</h2>
+          <h2 className="text-xl sm:text-xl md:text-3xl text-[#222934] font-bold text-center mb-6 sm:mb-8 md:mb-12">As Seen On</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6 lg:gap-8">
             <div className="p-2 sm:p-3 md:p-4 py-4 sm:py-5 lg:py-[36px] rounded-[12px] border-[1.5px] border-[rgba(225,233,240,0.7)] bg-[#F6F7F9] flex items-center justify-center">
               <Image src="/images/canberra-times.png" alt="The Canberra Times" width={120} height={100} objectFit="contain" className="max-w-[80px] sm:max-w-[100px] lg:max-w-[120px]" />
@@ -52,14 +52,14 @@ export default function ListProperty() {
 
         {/* Why Choose Us Section */}
         <section className="py-10 sm:py-16 lg:py-20 container mx-auto w-full px-4 sm:px-6">
-          <h2 className="text-2xl sm:text-2xl md:text-3xl text-[#222934] font-bold text-center mb-6 sm:mb-8 md:mb-12">Why Choose Us?</h2>
+          <h2 className="text-xl sm:text-xl md:text-3xl text-[#222934] font-bold text-center mb-6 sm:mb-8 md:mb-12">Why Choose Us?</h2>
 
           {/* Mobile view (card-style) for small screens */}
           <div className="block sm:hidden">
             <div className="space-y-6">
               {/* Feature 1 */}
               <div className="border rounded-xl overflow-hidden">
-                <div className="bg-gray-100 p-4 font-bold text-[16px] border-b">Listing Fee</div>
+                <div className="bg-gray-100 p-4 font-bold text-[16px] border-b text-center">Listing Fee</div>
                 <div className="grid grid-cols-3 divide-x">
                   <div className="p-4 bg-green-50">
                     <div className="text-center">
@@ -88,7 +88,7 @@ export default function ListProperty() {
 
               {/* Feature 2 */}
               <div className="border rounded-xl overflow-hidden">
-                <div className="bg-gray-100 p-4 font-bold text-[16px] border-b">Ready-To-Rent Tenants</div>
+                <div className="bg-gray-100 p-4 font-bold text-[16px] border-b text-center">Ready-To-Rent Tenants</div>
                 <div className="grid grid-cols-3 divide-x">
                   <div className="p-4 bg-green-50">
                     <div className="text-center">
@@ -105,7 +105,7 @@ export default function ListProperty() {
                       <div className="flex justify-center">
                         <span className="w-5 h-5 rounded-full bg-[#C80000] flex items-center justify-center text-white text-xs">✕</span>
                       </div>
-                      <div className="text-xs text-[#4E515D]">No</div>
+                      <div className="text-xs mt-1 md:mt-0 text-[#4E515D]">No</div>
                     </div>
                   </div>
                   <div className="p-4">
@@ -114,7 +114,7 @@ export default function ListProperty() {
                       <div className="flex justify-center">
                         <span className="w-5 h-5 rounded-full bg-[#C80000] flex items-center justify-center text-white text-xs">✕</span>
                       </div>
-                      <div className="text-xs text-[#4E515D]">No</div>
+                      <div className="text-xs mt-1 md:mt-0  text-[#4E515D]">No</div>
                     </div>
                   </div>
                 </div>
@@ -122,7 +122,7 @@ export default function ListProperty() {
 
               {/* Feature 3 */}
               <div className="border rounded-xl overflow-hidden">
-                <div className="bg-gray-100 p-4 font-bold text-[16px] border-b">Exclusive to Canberra rentals</div>
+                <div className="bg-gray-100 p-4 font-bold text-[16px] border-b text-center" >Exclusive to Canberra rentals</div>
                 <div className="grid grid-cols-3 divide-x">
                   <div className="p-4 bg-green-50">
                     <div className="text-center">
@@ -132,7 +132,7 @@ export default function ListProperty() {
                       <div className="flex justify-center">
                         <span className="w-5 h-5 rounded-full bg-[#2C9143] flex items-center justify-center text-white text-xs">✓</span>
                       </div>
-                      <div className="text-xs text-[#4E515D]">Yes</div>
+                      <div className="text-xs text-[#4E515D]  mt-1 md:mt-0 ">Yes</div>
                     </div>
                   </div>
                   <div className="p-4">
@@ -141,7 +141,7 @@ export default function ListProperty() {
                       <div className="flex justify-center">
                         <span className="w-5 h-5 rounded-full bg-[#C80000] flex items-center justify-center text-white text-xs">✕</span>
                       </div>
-                      <div className="text-xs text-[#4E515D]">No</div>
+                      <div className="text-xs mt-1 md:mt-0  text-[#4E515D] ">No</div>
                     </div>
                   </div>
                   <div className="p-4">
@@ -150,7 +150,7 @@ export default function ListProperty() {
                       <div className="flex justify-center">
                         <span className="w-5 h-5 rounded-full bg-[#C80000] flex items-center justify-center text-white text-xs">✕</span>
                       </div>
-                      <div className="text-xs text-[#4E515D]">No</div>
+                      <div className="text-xs mt-1 md:mt-0  text-[#4E515D]">No</div>
                     </div>
                   </div>
                 </div>
@@ -158,7 +158,7 @@ export default function ListProperty() {
 
               {/* Feature 4 */}
               <div className="border rounded-xl overflow-hidden">
-                <div className="bg-gray-100 p-4 font-bold text-[16px] border-b">Exclusive to renting</div>
+                <div className="bg-gray-100 p-4 font-bold text-[16px] border-b text-center">Exclusive to renting</div>
                 <div className="grid grid-cols-3 divide-x">
                   <div className="p-4 bg-green-50">
                     <div className="text-center">
@@ -168,7 +168,7 @@ export default function ListProperty() {
                       <div className="flex justify-center">
                         <span className="w-5 h-5 rounded-full bg-[#2C9143] flex items-center justify-center text-white text-xs">✓</span>
                       </div>
-                      <div className="text-xs text-[#4E515D]">Yes</div>
+                      <div className="text-xs text-[#4E515D]  mt-1 md:mt-0 ">Yes</div>
                     </div>
                   </div>
                   <div className="p-4">
@@ -177,7 +177,7 @@ export default function ListProperty() {
                       <div className="flex justify-center">
                         <span className="w-5 h-5 rounded-full bg-[#C80000] flex items-center justify-center text-white text-xs">✕</span>
                       </div>
-                      <div className="text-xs text-[#4E515D]">No</div>
+                      <div className="text-xs text-[#4E515D]  mt-1 md:mt-0 ">No</div>
                     </div>
                   </div>
                   <div className="p-4">
@@ -186,7 +186,7 @@ export default function ListProperty() {
                       <div className="flex justify-center">
                         <span className="w-5 h-5 rounded-full bg-[#C80000] flex items-center justify-center text-white text-xs">✕</span>
                       </div>
-                      <div className="text-xs text-[#4E515D]">No</div>
+                      <div className="text-xs text-[#4E515D]  mt-1 md:mt-0 ">No</div>
                     </div>
                   </div>
                 </div>
@@ -266,7 +266,7 @@ export default function ListProperty() {
                         <span className="w-5 h-5 rounded-full bg-[#2C9143] flex items-center justify-center text-white text-xs">✓</span>
                       </div>
 
-                      <div className="text-[#4E515D]">Yes</div>
+                      <div className="text-[#4E515D] mt-1 md:mt-0 ">Yes</div>
                     </div>
                   </td>
                   <td className="w-1/4 py-5 px-4 border-gray-200 text-center">
@@ -339,7 +339,7 @@ export default function ListProperty() {
 
         {/* List Your Property Steps */}
         <section className="py-8 sm:py-10 md:py-12 px-6 container mx-auto w-full">
-          <h2 className="text-2xl sm:text-2xl md:text-3xl text-[#222934] font-bold text-center mb-6 sm:mb-8 md:mb-12">List Your Property in 3 Quick Steps</h2>
+          <h2 className="text-xl sm:text-xl md:text-3xl text-[#222934] font-bold text-center mb-6 sm:mb-8 md:mb-12">List Your Property in 3 Quick Steps</h2>
           <div className="flex flex-col md:flex-row justify-between max-w-[1096px] mx-auto relative">
             {/* Connection line - only visible on desktop */}
             <div className="hidden md:block absolute top-[77px] left-0 right-0 h-[3px] bg-[#E0E5E9]"></div>
@@ -367,7 +367,7 @@ export default function ListProperty() {
               <div className="border-1 border-[#DEE1E3] text-gray-700 py-2 sm:py-3 rounded-[12px] px-3 sm:px-4 mb-4 text-base sm:text-lg md:text-[16px] xl:text-[20px] w-full md:w-auto text-center">
                 <span className="font-medium">3. Review & Publish</span>
               </div>
-              <div className="h-4 w-4 rounded-full bg-gray-400"></div>
+              <div className="h-4 w-4 rounded-full bg-gray-400 md:block hidden"></div>
             </div>
           </div>
         </section>
@@ -378,8 +378,8 @@ export default function ListProperty() {
             <div className="bg-[#F6F7F9] p-6 sm:p-8 md:p-[48px] rounded-[16px]">
               <div className="flex flex-col lg:flex-row items-center gap-6 md:gap-8">
                 <div className="w-full lg:w-1/2">
-                  <h2 className="text-2xl sm:text-2xl md:text-3xl font-bold text-[#222934] mb-3 sm:mb-4">Manage Everything in One Place</h2>
-                  <p className="mb-6 text-[#78808B] text-sm sm:text-base">
+                  <h2 className="text-xl sm:text-xl md:text-3xl font-bold md:text-left text-center text-[#222934] mb-3 sm:mb-4">Manage Everything in One Place</h2>
+                  <p className="mb-6 text-[#78808B] text-sm sm:text-base md:text-left text-center">
                     Take full control of your rental property with our easy-to-use, all-in-one platform. From finding tenants to managing tenant applications, tracking payments, and staying on top of maintenance-all your rental management tools are in one place.
                   </p>
                   <button className="bg-[#202A54] hover:bg-[#2C9143] text-white py-2 sm:py-3 px-4 sm:px-5 rounded-[40px] text-xs sm:text-sm font-medium w-full sm:w-auto">
@@ -402,7 +402,7 @@ export default function ListProperty() {
 
         {/* Ready-To-Rent Tenants Section */}
         <section className="py-10 sm:py-16 md:py-20 px-4 sm:px-6 md:px-0">
-          <div className="container mx-auto">
+          <div className="container mx-auto px-4">
             <TenantFilter />
           </div>
         </section>
@@ -412,8 +412,8 @@ export default function ListProperty() {
           <div className="container mx-auto">
             <div className="flex flex-col lg:flex-row items-center gap-6 md:gap-8">
               <div className="w-full lg:w-1/2">
-                <h2 className="text-2xl sm:text-2xl md:text-3xl font-bold text-[#222934] mb-2 sm:mb-4">Book a free 15 minute demo</h2>
-                <p className="text-[#78808B] text-sm sm:text-base">See how easy it is to list & manage your rental with our team</p>
+                <h2 className="text-xl sm:text-xl md:text-left text-center md:text-3xl font-bold text-[#222934] mb-2 sm:mb-4">Book a free 15 minute demo</h2>
+                <p className="text-[#78808B] md:text-left text-center text-sm sm:text-base">See how easy it is to list & manage your rental with our team</p>
               </div>
               <div className="w-full lg:w-1/2 mt-6 lg:mt-0">
                 <Image

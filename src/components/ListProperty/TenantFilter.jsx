@@ -74,19 +74,19 @@ export default function TenantFilter() {
 
     return (
         <>
-            <div className='flex flex-col lg:flex-row justify-center items-center gap-5 px-4 sm:px-6 lg:px-8'>
-                <div className="p-4 sm:p-6 lg:p-10 w-full lg:w-1/2">
-                    <h2 className="text-2xl sm:text-3xl font-bold mb-2 sm:mb-3 text-[#222934]">
+            <div className='flex flex-col lg:flex-row justify-center items-center gap-10 '>
+                <div className="w-full lg:w-1/2">
+                    <h2 className="text-xl md:text-3xl md:text-left text-center font-bold mb-2 sm:mb-3 text-[#222934]">
                         Check for <span className="text-[#2C9143]">Ready-To-Rent</span> tenants now
                     </h2>
-                    <p className="text-xs sm:text-sm text-[#78808B] mb-4 sm:mb-6">
+                    <p className="text-xs sm:text-sm text-[#78808B] md:text-left text-center mb-4 sm:mb-6">
                         Use the filters below to see tenants who match your property.
                     </p>
 
                     <div className="space-y-4 sm:space-y-6">
                         {/* Suburbs Filter */}
                         <div className="mb-3 sm:mb-4" ref={dropdownRef}>
-                            <label className="font-bold text-sm sm:text-md text-[#222934] mb-2 sm:mb-3 block">Suburbs</label>
+                            <label className="font-bold text-sm sm:text-md text-[#222934] mb-2 sm:mb-3 block md:text-left text-center">Suburbs</label>
                             <div className="relative">
                                 <button
                                     type="button"
@@ -204,8 +204,8 @@ export default function TenantFilter() {
                     </div>
                 </div>
                 <div className='w-full lg:w-1/2 mt-6 lg:mt-0 flex justify-center lg:justify-start'>
-                    <Link href="/">
-                        <Image className='w-full max-w-[400px] lg:max-w-full' src="/images/tenants.png" width={700} height={650} alt="Logo" />
+                    <Link href="/" className="w-full">
+                        <Image className='w-full  lg:max-w-full' src="/images/tenants.png" width={700} height={650} alt="Logo" />
                     </Link>
                 </div>
             </div>

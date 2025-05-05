@@ -24,3 +24,25 @@
 body {
   font-family: var(--font-inter);
 }
+/* Add custom styles for navigation arrows */
+.swiper-button-next, .swiper-button-prev {
+  color: #ffffff; /* Adjust color */
+  background-color: #1a1f3b;
+  padding: 20px;
+  border-radius: 100%;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after {
+
+  color: rgb(255, 255, 255);
+  font-size: 18px !important;
+}
+.swiper-button-next, .swiper-button-prev {
+  display: none !important;
+}
+/* Add responsive styling for the arrows */
+@media (max-width: 768px) {
+  .swiper-button-next, .swiper-button-prev {
+    display: block; 
+  }
+}

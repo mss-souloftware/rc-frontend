@@ -60,16 +60,16 @@ const Header = () => {
     return (
         <header className="w-full py-4 relative z-50 px-5">
             <div className="container mx-auto flex items-center justify-between">
-                <div className="flex items-center xl:gap-12 gap-5">
+                <div className="flex xl:flex-1 flex-auto items-center xl:gap-12 gap-5">
                     <Logo />
                     {/* Desktop Navigation - hidden on mobile/tablet */}
-                    <div className="hidden lg:block">
+                    
+                </div>
+                <div className="hidden xl:flex-1 flex-auto  lg:block">
                         <Nav />
                     </div>
-                </div>
-
                 {/* Desktop Action Buttons - hidden on mobile/tablet */}
-                <div className="hidden lg:flex items-center space-x-3">
+                <div className="hidden xl:flex-1 flex-auto justify-end lg:flex items-center space-x-3">
                 <Link href="/listproperty">
                     <Button  className=" cursor-pointer inline-flex items-center justify-center font-small transition-colors focus:outline-none focus:ring-2 focus:ring-offset-2  hover:!bg-[#202A54] text-white rounded-full px-4 py-3">
                         List your home

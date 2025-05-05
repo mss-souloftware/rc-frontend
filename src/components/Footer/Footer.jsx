@@ -43,7 +43,7 @@ export default function Footer() {
 
                     <div>
                         <h5 className="font-semibold mb-3 text-[#F7F8FC] lg:text-[16px] text-[14px]">Stay connected with us!</h5>
-                        <div className="flex space-x-2 items-center justify-center md:justify-left text-white">
+                        <div className="flex space-x-2 items-center justify-center md:justify-start text-white">
                             <a href="#">
 
                                 <svg  width="28" height="27" viewBox="0 0 28 27" fill="none" xmlns="http://www.w3.org/2000/svg">
