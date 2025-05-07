@@ -10,7 +10,8 @@ export default function Nav() {
         { href: '/', label: 'Homes' },
         { href: '/rent', label: 'For Tenants' },
         { href: '/tenants', label: 'For Agents' },
-        { href: '/agents', label: 'Our Story' },
+        
+        { href: '/contact', label: 'Contact Us' },
     ]
 
     return (
