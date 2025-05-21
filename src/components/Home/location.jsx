@@ -1,13 +1,14 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { SwiperSlide, Swiper as SwiperComponent } from 'swiper/react';
 import Image from 'next/image';
 
 const Location = () => {
   // Hardcoded JSON data for locations
-  const locations = [
+  const data = [
     { name: "Inner South", imageUrl: "/images/l1.png" },
     { name: "Tuggeranong", imageUrl: "/images/l2.png" },
     { name: "City", imageUrl: "/images/l3.png" },
+    { name: "Gungahlin", imageUrl: "/images/l4.png" },
     { name: "Gungahlin", imageUrl: "/images/l4.png" }
   ];
 
@@ -37,20 +38,22 @@ const Location = () => {
           }
         }}
       >
-        {locations.map((location, index) => (
+       
+        {data.map((data, index) => (
           <SwiperSlide key={index}>
             <div className="flex-shrink-0 ">
               <div className="cursor-pointer ">
                 {/* Image component from Next.js */}
+                
                 <Image
-                  src={location.imageUrl}
-                  alt={location.name}
+                  src={data.imageUrl}
+                  alt={data.name}
                   width={300}  // Specify width for optimization
                   height={190} // Specify height for optimization
                   className="w-full rounded-[12px] object-cover"
                 />
                 <div className="p-4">
-                  <h3 className="sm:text-xl text-md md:text-left text-center font-medium">{location.name}</h3>
+                  <h3 className="sm:text-xl text-md md:text-left text-center font-medium">{data.name}</h3>
                 </div>
               </div>
             </div>

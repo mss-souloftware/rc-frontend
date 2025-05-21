@@ -24,7 +24,7 @@ const HeroSection = () => {
       </div>
 
       {/* Overlay for text readability */}
-      <div className="absolute inset-0 bg-black opacity-25"></div>
+      <div className="absolute inset-0 bg-black opacity-25  "></div>
 
       {/* Content Section */}
       <div className="relative z-10 flex justify-end items-end text-center text-white lg:h-[475px] h-[350px] px-4">

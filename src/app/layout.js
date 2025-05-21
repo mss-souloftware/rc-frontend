@@ -5,7 +5,7 @@ import Header from "@/components/Header/Header";
 import 'swiper/css';
 import 'swiper/css/navigation'; 
 
-
+import 'leaflet/dist/leaflet.css';
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
