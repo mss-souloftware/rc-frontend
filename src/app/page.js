@@ -13,10 +13,15 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <Location/>
+      <Location />
       <FeatureCards />
-
-      <PropertyGrid />
+      <div className="container mx-auto px-5 sm:py-[40px] pb-0 pt-[40px]">
+        <PropertyGrid
+          title="Just Added"
+          gridSet={[4, 3, 3, 2]}
+          limit={4}
+        />
+      </div>
       <FeaturedGrid />
       <ReadyToRentSection />
     </>
