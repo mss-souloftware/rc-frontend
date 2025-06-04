@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import { useState } from "react";
 
-export default function page() {
+export default function SignupSec() {
     const [selectedRole, setSelectedRole] = useState("landlord");
 
     const handleSelect = (role) => {

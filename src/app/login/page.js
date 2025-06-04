@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import { useState } from "react";
 
-export default function page() {
+export default function Login() {
     const [form, setForm] = useState({
         email: "",
         password: "",
