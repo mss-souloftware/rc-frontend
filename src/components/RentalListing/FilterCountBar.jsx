@@ -5,16 +5,18 @@ import { FaFilter, FaTh, FaBars } from 'react-icons/fa';
 
 const areas = ['Tuggeranong', 'Gungahlin', 'Canberra City', 'Kingston'];
 
-export default function FilterCountBar() {
+export default function FilterCountBar({ title }) {
     const [view, setView] = useState('grid'); // 'grid' or 'list'
     const [sort, setSort] = useState('newest');
 
     return (
         <div className="flex flex-wrap items-center justify-between gap-4 py-4 mt-3 bg-white">
             {/* Left: Result count */}
+
             <div className="text-2xl font-semibold text-[#1A1A1A] whitespace-nowrap">
-                32 Results Found
+                {title ? title : "32 Results Found"}
             </div>
+
 
             {/* Right: Filters */}
             <div className="flex flex-wrap items-center gap-2">

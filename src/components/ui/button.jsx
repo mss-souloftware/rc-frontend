@@ -9,6 +9,8 @@ export const Button = React.forwardRef(
       default: 'bg-green-600 text-white hover:bg-green-700',
       ghost: 'bg-transparent hover:bg-gray-100 text-white',
       grayTrans: 'bg-gray-400 hover:bg-green-600 text-white rounded-full',
+      blueGreen: 'bg-[#202A54] hover:bg-green-600 text-white rounded-full',
+      ghostBorder: 'bg-trasnparent text-[#202A54] border border-[#EFEFEF] hover:bg-green-600 hover:text-white hover:border-green-600 rounded-full',
     };
 
     return (
