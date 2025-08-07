@@ -2,16 +2,16 @@ import Image from 'next/image'
 import React from 'react'
 import { FaSearch } from 'react-icons/fa'
 
-export default function ForRentHero() {
+export default function ForRentHero({ title, bgPath }) {
     return (
         <section className='relative py-20'>
-            <Image src="/images/home-hero.png"
+            <Image src={bgPath}
                 alt="For Rent"
                 layout="fill"
                 objectFit="cover"
                 priority />
             <div className="relative">
-                <h1 className='text-5xl font-bold text-white text-center'>For Rent</h1>
+                <h1 className='text-5xl font-bold text-white text-center'>{title}</h1>
                 <div className="w-full max-w-2xl mx-auto px-4 mt-10">
                     <div className="relative flex items-center bg-white/10 backdrop-blur-xs rounded-full shadow-md">
                         <input

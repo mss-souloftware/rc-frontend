@@ -47,7 +47,7 @@ export default function PropertyCard({
                     <span className='flex gap-1.5'><Image src="/global/parking.svg" width={15} height={15} alt='Parking' /> {parks} Parking</span>
                 </div>
                 <div className='border border-gray-100 mt-4'></div>
-                <div className="flex items-center justify-center gap-2 mt-4 text-xs text-gray-500">
+                <div className="flex items-center justify-center md:justify-start gap-2 mt-4 text-xs text-gray-500">
                     <div className="w-6 h-6 rounded-full bg-gray-100 flex items-center justify-center text-[10px] font-bold text-gray-400">
                         {agent.split(" ").map(n => n[0]).join("")}
                     </div>

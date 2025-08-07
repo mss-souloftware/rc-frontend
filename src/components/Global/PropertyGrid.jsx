@@ -1,8 +1,10 @@
 "use client";
-import React from 'react';
+import React, { useState } from 'react';
 import PropertyCard from "./PropertyCard";
+import Pagination from './Pagination';
 
-export default function PropertyGrid({ title, gridSet, limit }) {
+export default function PropertyGrid({ title, gridSet, limit = 6, showPagination = false }) {
+    const [currentPage, setCurrentPage] = useState(1);
     const listings = [
         {
             imageUrl: "/properties/house1.jpg",
@@ -81,7 +83,77 @@ export default function PropertyGrid({ title, gridSet, limit }) {
             agent: "Antoni Francki",
             type: "Shared",
         },
+        {
+            imageUrl: "/properties/house1.jpg",
+            price: "650",
+            address: "503/16 Lonsdale Street, Braddon",
+            bedrooms: 2,
+            bathrooms: 1,
+            parks: 2,
+            agency: "Independent Property Group",
+            agent: "Antoni Francki",
+            type: "Apartment",
+        },
+        {
+            imageUrl: "/properties/house1.jpg",
+            price: "650",
+            address: "503/16 Lonsdale Street, Braddon",
+            bedrooms: 2,
+            bathrooms: 1,
+            parks: 2,
+            agency: "Independent Property Group",
+            agent: "Antoni Francki",
+            type: "Apartment",
+        },
+        {
+            imageUrl: "/properties/a4.png",
+            price: "650",
+            address: "503/16 Lonsdale Street, Braddon",
+            bedrooms: 2,
+            bathrooms: 1,
+            parks: 2,
+            agency: "Independent Property Group",
+            agent: "Antoni Francki",
+            type: "Shared",
+        },
+        {
+            imageUrl: "/properties/a2.png",
+            price: "650",
+            address: "503/16 Lonsdale Street, Braddon",
+            bedrooms: 2,
+            bathrooms: 1,
+            parks: 2,
+            agency: "Independent Property Group",
+            agent: "Antoni Francki",
+            type: "Shared",
+        },
+        {
+            imageUrl: "/properties/house1.jpg",
+            price: "650",
+            address: "503/16 Lonsdale Street, Braddon",
+            bedrooms: 2,
+            bathrooms: 1,
+            parks: 2,
+            agency: "Independent Property Group",
+            agent: "Antoni Francki",
+            type: "Apartment",
+        },
+        {
+            imageUrl: "/properties/a2.png",
+            price: "650",
+            address: "503/16 Lonsdale Street, Braddon",
+            bedrooms: 2,
+            bathrooms: 1,
+            parks: 2,
+            agency: "Independent Property Group",
+            agent: "Antoni Francki",
+            type: "Shared",
+        }
     ];
+
+    const totalPages = Math.ceil(listings.length / limit);
+    const start = (currentPage - 1) * limit;
+    const paginatedListings = showPagination ? listings.slice(start, start + limit) : listings.slice(0, limit);
 
     // Map column count to Tailwind grid class
     const colClasses = {
@@ -103,15 +175,26 @@ export default function PropertyGrid({ title, gridSet, limit }) {
 
     return (
         <div>
-            <h2 className="md:text-2xl sm:text-xl text-md font-semibold text-gray-800 md:mb-5 mb-2 md:text-left text-center">
-                {title}
-            </h2>
-
+            {title && (
+                <h2 className="md:text-2xl sm:text-xl text-md font-semibold text-gray-800 md:mb-5 mb-2 md:text-left text-center">
+                    {title}
+                </h2>
+            )}
             <div className={responsiveCols}>
-                {listings.slice(0, limit).map((property, index) => (
+                {paginatedListings.map((property, index) => (
                     <PropertyCard key={index} {...property} />
                 ))}
             </div>
+
+            {showPagination && totalPages > 1 && (
+                <div className="mt-6">
+                    <Pagination
+                        currentPage={currentPage}
+                        totalPages={totalPages}
+                        onPageChange={(page) => setCurrentPage(page)}
+                    />
+                </div>
+            )}
         </div>
     );
 }
