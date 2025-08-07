@@ -4,6 +4,7 @@ import PropertyCard from "./PropertyCard";
 import Image from 'next/image';
 import { SwiperSlide, Swiper as SwiperComponent } from 'swiper/react';
 import { Navigation, Pagination, A11y } from 'swiper/modules';
+import listings from '@/data/properties.json';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -34,43 +35,7 @@ export default function FeaturedGrid() {
             document.head.removeChild(style);
         };
     }, []);
-    const listings = [
-        {
-            imageUrl: "/properties/f1.png",
-            price: "650",
-            address: "503/16 Lonsdale Street, Braddon",
-            bedrooms: 2,
-            bathrooms: 1,
-            parks: 2,
-            agency: "Independent Property Group",
-            agent: "Antoni Francki",
-            type: "Apartment",
-        },
-        {
-            imageUrl: "/properties/f2.png",
-            price: "650",
-            address: "503/16 Lonsdale Street, Braddon",
-            bedrooms: 2,
-            bathrooms: 1,
-            parks: 2,
-            agency: "Independent Property Group",
-            agent: "Antoni Francki",
-            type: "Shared",
-        },
-        {
-            imageUrl: "/properties/f3.png",
-            price: "650",
-            address: "503/16 Lonsdale Street, Braddon",
-            bedrooms: 2,
-            bathrooms: 1,
-            parks: 2,
-            agency: "Independent Property Group",
-            agent: "Antoni Francki",
-            type: "Apartment",
-        },
-      
-    ];
-
+    
     return (
         <div className="container mx-auto px-5 sm:py-[40px] pb-0 pt-[40px]">
               <h2 className="md:text-2xl sm:text-xl text-md font-semibold text-gray-800 md:mb-5 mb-2 md:text-left text-center">Featured Listing </h2>

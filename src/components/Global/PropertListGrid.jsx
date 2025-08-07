@@ -2,88 +2,10 @@
 import React, { useState } from 'react';
 import PropertyListCard from './PropertyListCard';
 import Pagination from './Pagination';
+import listings from '@/data/properties.json';
 
 export default function PropertyListGrid({ title, gridSet, limit = 6 }) {
     const [currentPage, setCurrentPage] = useState(1);
-    const listings = [
-        {
-            imageUrl: "/properties/house1.jpg",
-            price: "650",
-            address: "503/16 Lonsdale Street, Braddon",
-            bedrooms: 2,
-            bathrooms: 1,
-            parks: 2,
-            agency: "Independent Property Group",
-            agent: "Antoni Francki",
-            type: "Apartment",
-        },
-        {
-            imageUrl: "/properties/a2.png",
-            price: "650",
-            address: "503/16 Lonsdale Street, Braddon",
-            bedrooms: 2,
-            bathrooms: 1,
-            parks: 2,
-            agency: "Independent Property Group",
-            agent: "Antoni Francki",
-            type: "Shared",
-        },
-        {
-            imageUrl: "/properties/a3.png",
-            price: "650",
-            address: "503/16 Lonsdale Street, Braddon",
-            bedrooms: 2,
-            bathrooms: 1,
-            parks: 2,
-            agency: "Independent Property Group",
-            agent: "Antoni Francki",
-            type: "Apartment",
-        },
-        {
-            imageUrl: "/properties/a4.png",
-            price: "650",
-            address: "503/16 Lonsdale Street, Braddon",
-            bedrooms: 2,
-            bathrooms: 1,
-            parks: 2,
-            agency: "Independent Property Group",
-            agent: "Antoni Francki",
-            type: "Shared",
-        },
-        {
-            imageUrl: "/properties/a4.png",
-            price: "650",
-            address: "503/16 Lonsdale Street, Braddon",
-            bedrooms: 2,
-            bathrooms: 1,
-            parks: 2,
-            agency: "Independent Property Group",
-            agent: "Antoni Francki",
-            type: "Shared",
-        },
-        {
-            imageUrl: "/properties/house1.jpg",
-            price: "650",
-            address: "503/16 Lonsdale Street, Braddon",
-            bedrooms: 2,
-            bathrooms: 1,
-            parks: 2,
-            agency: "Independent Property Group",
-            agent: "Antoni Francki",
-            type: "Apartment",
-        },
-        {
-            imageUrl: "/properties/a2.png",
-            price: "650",
-            address: "503/16 Lonsdale Street, Braddon",
-            bedrooms: 2,
-            bathrooms: 1,
-            parks: 2,
-            agency: "Independent Property Group",
-            agent: "Antoni Francki",
-            type: "Shared",
-        },
-    ];
 
     const totalPages = Math.ceil(listings.length / limit);
 
