@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import PropertyShare from '@/components/PropertySingle/PropertyShare';
 import PropertyContent from '@/components/PropertySingle/PropertyContent';
+import PropertyGrid from '@/components/Global/PropertyGrid';
 
 export async function generateStaticParams() {
     const filePath = path.join(process.cwd(), 'src', 'data', 'properties.json');
@@ -35,6 +36,14 @@ export default function PropertyPage({ params }) {
                 <div className="w-full md:w-3/4 lg:w-[40%] p-4">
 
                 </div>
+            </div>
+            <div className="my-5">
+                <PropertyGrid
+                    title="Similar Options"
+                    gridSet={[3, 3, 2, 1]}
+                    limit={3}
+                    showPagination={false}
+                />
             </div>
         </div>
     );
