@@ -1,24 +1,15 @@
-import fs from 'fs';
-import path from 'path';
-import PropertyShare from '@/components/PropertySingle/PropertyShare';
-import PropertyContent from '@/components/PropertySingle/PropertyContent';
 import PropertyGrid from '@/components/Global/PropertyGrid';
+import PropertyContent from '@/components/PropertySingle/PropertyContent';
+import PropertyShare from '@/components/PropertySingle/PropertyShare';
+import properties from '@/data/properties.json';
 
 export async function generateStaticParams() {
-    const filePath = path.join(process.cwd(), 'src', 'data', 'properties.json');
-    const jsonData = fs.readFileSync(filePath, 'utf-8');
-    const properties = JSON.parse(jsonData);
-
     return properties.map((property) => ({
         slug: property.slug,
     }));
 }
 
 export default function PropertyPage({ params }) {
-    const filePath = path.join(process.cwd(), 'src', 'data', 'properties.json');
-    const jsonData = fs.readFileSync(filePath, 'utf-8');
-    const properties = JSON.parse(jsonData);
-
     const property = properties.find((p) => p.slug === params.slug);
 
     if (!property) {
@@ -32,10 +23,7 @@ export default function PropertyPage({ params }) {
                 <div className="w-full md:w-1/4 lg:w-[60%] bg-white py-5">
                     <PropertyContent data={property} />
                 </div>
-
-                <div className="w-full md:w-3/4 lg:w-[40%] p-4">
-
-                </div>
+                <div className="w-full md:w-3/4 lg:w-[40%] p-4"></div>
             </div>
             <div className="my-5">
                 <PropertyGrid

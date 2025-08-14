@@ -62,7 +62,44 @@
         "parks": 2,
         "agency": "Independent Property Group",
         "agent": "Antoni Francki",
-        "type": "Shared"
+        "type": "Shared",
+        "tags": [
+            {
+                "title": "Culturally Welcoming",
+                "icon": "/icons/handshake.svg",
+                "color": "#FFF9F9"
+            },
+            {
+                "title": "International Student Friendly",
+                "icon": "/icons/globe.svg",
+                "color": "#FEF4FC"
+            },
+            {
+                "title": "Vegetarian Household",
+                "icon": "/icons/leaf.svg",
+                "color": "#FBFEED"
+            },
+            {
+                "title": "Languages Spoken: Mandarin, Hindi, Arabic",
+                "icon": "/icons/language.svg",
+                "color": "#FBF9FF"
+            },
+            {
+                "title": "Prayer Space Available",
+                "icon": "/icons/prayer.svg",
+                "color": "#F8FFF8"
+            },
+            {
+                "title": "Shared with University Students",
+                "icon": "/icons/graduation-cap.svg",
+                "color": "#F1F4FB"
+            },
+            {
+                "title": "Women-Only Sharehouse",
+                "icon": "/icons/park-girl.svg",
+                "color": "#F1FEFA"
+            }
+        ]
     },
     {
         "id": 3,
@@ -76,7 +113,44 @@
         "parks": 2,
         "agency": "Independent Property Group",
         "agent": "Antoni Francki",
-        "type": "Apartment"
+        "type": "Apartment",
+        "tags": [
+            {
+                "title": "Culturally Welcoming",
+                "icon": "/icons/handshake.svg",
+                "color": "#FFF9F9"
+            },
+            {
+                "title": "International Student Friendly",
+                "icon": "/icons/globe.svg",
+                "color": "#FEF4FC"
+            },
+            {
+                "title": "Vegetarian Household",
+                "icon": "/icons/leaf.svg",
+                "color": "#FBFEED"
+            },
+            {
+                "title": "Languages Spoken: Mandarin, Hindi, Arabic",
+                "icon": "/icons/language.svg",
+                "color": "#FBF9FF"
+            },
+            {
+                "title": "Prayer Space Available",
+                "icon": "/icons/prayer.svg",
+                "color": "#F8FFF8"
+            },
+            {
+                "title": "Shared with University Students",
+                "icon": "/icons/graduation-cap.svg",
+                "color": "#F1F4FB"
+            },
+            {
+                "title": "Women-Only Sharehouse",
+                "icon": "/icons/park-girl.svg",
+                "color": "#F1FEFA"
+            }
+        ]
     },
     {
         "id": 4,
@@ -90,7 +164,44 @@
         "parks": 2,
         "agency": "Independent Property Group",
         "agent": "Antoni Francki",
-        "type": "Shared"
+        "type": "Shared",
+        "tags": [
+            {
+                "title": "Culturally Welcoming",
+                "icon": "/icons/handshake.svg",
+                "color": "#FFF9F9"
+            },
+            {
+                "title": "International Student Friendly",
+                "icon": "/icons/globe.svg",
+                "color": "#FEF4FC"
+            },
+            {
+                "title": "Vegetarian Household",
+                "icon": "/icons/leaf.svg",
+                "color": "#FBFEED"
+            },
+            {
+                "title": "Languages Spoken: Mandarin, Hindi, Arabic",
+                "icon": "/icons/language.svg",
+                "color": "#FBF9FF"
+            },
+            {
+                "title": "Prayer Space Available",
+                "icon": "/icons/prayer.svg",
+                "color": "#F8FFF8"
+            },
+            {
+                "title": "Shared with University Students",
+                "icon": "/icons/graduation-cap.svg",
+                "color": "#F1F4FB"
+            },
+            {
+                "title": "Women-Only Sharehouse",
+                "icon": "/icons/park-girl.svg",
+                "color": "#F1FEFA"
+            }
+        ]
     },
     {
         "id": 5,
@@ -104,7 +215,44 @@
         "parks": 2,
         "agency": "Independent Property Group",
         "agent": "Antoni Francki",
-        "type": "Shared"
+        "type": "Shared",
+        "tags": [
+            {
+                "title": "Culturally Welcoming",
+                "icon": "/icons/handshake.svg",
+                "color": "#FFF9F9"
+            },
+            {
+                "title": "International Student Friendly",
+                "icon": "/icons/globe.svg",
+                "color": "#FEF4FC"
+            },
+            {
+                "title": "Vegetarian Household",
+                "icon": "/icons/leaf.svg",
+                "color": "#FBFEED"
+            },
+            {
+                "title": "Languages Spoken: Mandarin, Hindi, Arabic",
+                "icon": "/icons/language.svg",
+                "color": "#FBF9FF"
+            },
+            {
+                "title": "Prayer Space Available",
+                "icon": "/icons/prayer.svg",
+                "color": "#F8FFF8"
+            },
+            {
+                "title": "Shared with University Students",
+                "icon": "/icons/graduation-cap.svg",
+                "color": "#F1F4FB"
+            },
+            {
+                "title": "Women-Only Sharehouse",
+                "icon": "/icons/park-girl.svg",
+                "color": "#F1FEFA"
+            }
+        ]
     },
     {
         "id": 6,
@@ -118,7 +266,44 @@
         "parks": 2,
         "agency": "Independent Property Group",
         "agent": "Antoni Francki",
-        "type": "Apartment"
+        "type": "Apartment",
+        "tags": [
+            {
+                "title": "Culturally Welcoming",
+                "icon": "/icons/handshake.svg",
+                "color": "#FFF9F9"
+            },
+            {
+                "title": "International Student Friendly",
+                "icon": "/icons/globe.svg",
+                "color": "#FEF4FC"
+            },
+            {
+                "title": "Vegetarian Household",
+                "icon": "/icons/leaf.svg",
+                "color": "#FBFEED"
+            },
+            {
+                "title": "Languages Spoken: Mandarin, Hindi, Arabic",
+                "icon": "/icons/language.svg",
+                "color": "#FBF9FF"
+            },
+            {
+                "title": "Prayer Space Available",
+                "icon": "/icons/prayer.svg",
+                "color": "#F8FFF8"
+            },
+            {
+                "title": "Shared with University Students",
+                "icon": "/icons/graduation-cap.svg",
+                "color": "#F1F4FB"
+            },
+            {
+                "title": "Women-Only Sharehouse",
+                "icon": "/icons/park-girl.svg",
+                "color": "#F1FEFA"
+            }
+        ]
     },
     {
         "id": 7,
@@ -132,7 +317,44 @@
         "parks": 2,
         "agency": "Independent Property Group",
         "agent": "Antoni Francki",
-        "type": "Shared"
+        "type": "Shared",
+        "tags": [
+            {
+                "title": "Culturally Welcoming",
+                "icon": "/icons/handshake.svg",
+                "color": "#FFF9F9"
+            },
+            {
+                "title": "International Student Friendly",
+                "icon": "/icons/globe.svg",
+                "color": "#FEF4FC"
+            },
+            {
+                "title": "Vegetarian Household",
+                "icon": "/icons/leaf.svg",
+                "color": "#FBFEED"
+            },
+            {
+                "title": "Languages Spoken: Mandarin, Hindi, Arabic",
+                "icon": "/icons/language.svg",
+                "color": "#FBF9FF"
+            },
+            {
+                "title": "Prayer Space Available",
+                "icon": "/icons/prayer.svg",
+                "color": "#F8FFF8"
+            },
+            {
+                "title": "Shared with University Students",
+                "icon": "/icons/graduation-cap.svg",
+                "color": "#F1F4FB"
+            },
+            {
+                "title": "Women-Only Sharehouse",
+                "icon": "/icons/park-girl.svg",
+                "color": "#F1FEFA"
+            }
+        ]
     },
     {
         "id": 8,
@@ -146,7 +368,44 @@
         "parks": 2,
         "agency": "Independent Property Group",
         "agent": "Antoni Francki",
-        "type": "Apartment"
+        "type": "Apartment",
+        "tags": [
+            {
+                "title": "Culturally Welcoming",
+                "icon": "/icons/handshake.svg",
+                "color": "#FFF9F9"
+            },
+            {
+                "title": "International Student Friendly",
+                "icon": "/icons/globe.svg",
+                "color": "#FEF4FC"
+            },
+            {
+                "title": "Vegetarian Household",
+                "icon": "/icons/leaf.svg",
+                "color": "#FBFEED"
+            },
+            {
+                "title": "Languages Spoken: Mandarin, Hindi, Arabic",
+                "icon": "/icons/language.svg",
+                "color": "#FBF9FF"
+            },
+            {
+                "title": "Prayer Space Available",
+                "icon": "/icons/prayer.svg",
+                "color": "#F8FFF8"
+            },
+            {
+                "title": "Shared with University Students",
+                "icon": "/icons/graduation-cap.svg",
+                "color": "#F1F4FB"
+            },
+            {
+                "title": "Women-Only Sharehouse",
+                "icon": "/icons/park-girl.svg",
+                "color": "#F1FEFA"
+            }
+        ]
     },
     {
         "id": 9,
@@ -160,7 +419,44 @@
         "parks": 2,
         "agency": "Independent Property Group",
         "agent": "Antoni Francki",
-        "type": "Apartment"
+        "type": "Apartment",
+        "tags": [
+            {
+                "title": "Culturally Welcoming",
+                "icon": "/icons/handshake.svg",
+                "color": "#FFF9F9"
+            },
+            {
+                "title": "International Student Friendly",
+                "icon": "/icons/globe.svg",
+                "color": "#FEF4FC"
+            },
+            {
+                "title": "Vegetarian Household",
+                "icon": "/icons/leaf.svg",
+                "color": "#FBFEED"
+            },
+            {
+                "title": "Languages Spoken: Mandarin, Hindi, Arabic",
+                "icon": "/icons/language.svg",
+                "color": "#FBF9FF"
+            },
+            {
+                "title": "Prayer Space Available",
+                "icon": "/icons/prayer.svg",
+                "color": "#F8FFF8"
+            },
+            {
+                "title": "Shared with University Students",
+                "icon": "/icons/graduation-cap.svg",
+                "color": "#F1F4FB"
+            },
+            {
+                "title": "Women-Only Sharehouse",
+                "icon": "/icons/park-girl.svg",
+                "color": "#F1FEFA"
+            }
+        ]
     },
     {
         "id": 10,
@@ -174,7 +470,44 @@
         "parks": 2,
         "agency": "Independent Property Group",
         "agent": "Antoni Francki",
-        "type": "Shared"
+        "type": "Shared",
+        "tags": [
+            {
+                "title": "Culturally Welcoming",
+                "icon": "/icons/handshake.svg",
+                "color": "#FFF9F9"
+            },
+            {
+                "title": "International Student Friendly",
+                "icon": "/icons/globe.svg",
+                "color": "#FEF4FC"
+            },
+            {
+                "title": "Vegetarian Household",
+                "icon": "/icons/leaf.svg",
+                "color": "#FBFEED"
+            },
+            {
+                "title": "Languages Spoken: Mandarin, Hindi, Arabic",
+                "icon": "/icons/language.svg",
+                "color": "#FBF9FF"
+            },
+            {
+                "title": "Prayer Space Available",
+                "icon": "/icons/prayer.svg",
+                "color": "#F8FFF8"
+            },
+            {
+                "title": "Shared with University Students",
+                "icon": "/icons/graduation-cap.svg",
+                "color": "#F1F4FB"
+            },
+            {
+                "title": "Women-Only Sharehouse",
+                "icon": "/icons/park-girl.svg",
+                "color": "#F1FEFA"
+            }
+        ]
     },
     {
         "id": 11,
@@ -188,7 +521,44 @@
         "parks": 2,
         "agency": "Independent Property Group",
         "agent": "Antoni Francki",
-        "type": "Shared"
+        "type": "Shared",
+        "tags": [
+            {
+                "title": "Culturally Welcoming",
+                "icon": "/icons/handshake.svg",
+                "color": "#FFF9F9"
+            },
+            {
+                "title": "International Student Friendly",
+                "icon": "/icons/globe.svg",
+                "color": "#FEF4FC"
+            },
+            {
+                "title": "Vegetarian Household",
+                "icon": "/icons/leaf.svg",
+                "color": "#FBFEED"
+            },
+            {
+                "title": "Languages Spoken: Mandarin, Hindi, Arabic",
+                "icon": "/icons/language.svg",
+                "color": "#FBF9FF"
+            },
+            {
+                "title": "Prayer Space Available",
+                "icon": "/icons/prayer.svg",
+                "color": "#F8FFF8"
+            },
+            {
+                "title": "Shared with University Students",
+                "icon": "/icons/graduation-cap.svg",
+                "color": "#F1F4FB"
+            },
+            {
+                "title": "Women-Only Sharehouse",
+                "icon": "/icons/park-girl.svg",
+                "color": "#F1FEFA"
+            }
+        ]
     },
     {
         "id": 12,
@@ -202,7 +572,44 @@
         "parks": 2,
         "agency": "Independent Property Group",
         "agent": "Antoni Francki",
-        "type": "Apartment"
+        "type": "Apartment",
+        "tags": [
+            {
+                "title": "Culturally Welcoming",
+                "icon": "/icons/handshake.svg",
+                "color": "#FFF9F9"
+            },
+            {
+                "title": "International Student Friendly",
+                "icon": "/icons/globe.svg",
+                "color": "#FEF4FC"
+            },
+            {
+                "title": "Vegetarian Household",
+                "icon": "/icons/leaf.svg",
+                "color": "#FBFEED"
+            },
+            {
+                "title": "Languages Spoken: Mandarin, Hindi, Arabic",
+                "icon": "/icons/language.svg",
+                "color": "#FBF9FF"
+            },
+            {
+                "title": "Prayer Space Available",
+                "icon": "/icons/prayer.svg",
+                "color": "#F8FFF8"
+            },
+            {
+                "title": "Shared with University Students",
+                "icon": "/icons/graduation-cap.svg",
+                "color": "#F1F4FB"
+            },
+            {
+                "title": "Women-Only Sharehouse",
+                "icon": "/icons/park-girl.svg",
+                "color": "#F1FEFA"
+            }
+        ]
     },
     {
         "id": 13,
@@ -216,7 +623,44 @@
         "parks": 2,
         "agency": "Independent Property Group",
         "agent": "Antoni Francki",
-        "type": "Shared"
+        "type": "Shared",
+        "tags": [
+            {
+                "title": "Culturally Welcoming",
+                "icon": "/icons/handshake.svg",
+                "color": "#FFF9F9"
+            },
+            {
+                "title": "International Student Friendly",
+                "icon": "/icons/globe.svg",
+                "color": "#FEF4FC"
+            },
+            {
+                "title": "Vegetarian Household",
+                "icon": "/icons/leaf.svg",
+                "color": "#FBFEED"
+            },
+            {
+                "title": "Languages Spoken: Mandarin, Hindi, Arabic",
+                "icon": "/icons/language.svg",
+                "color": "#FBF9FF"
+            },
+            {
+                "title": "Prayer Space Available",
+                "icon": "/icons/prayer.svg",
+                "color": "#F8FFF8"
+            },
+            {
+                "title": "Shared with University Students",
+                "icon": "/icons/graduation-cap.svg",
+                "color": "#F1F4FB"
+            },
+            {
+                "title": "Women-Only Sharehouse",
+                "icon": "/icons/park-girl.svg",
+                "color": "#F1FEFA"
+            }
+        ]
     },
     {
         "id": 14,
@@ -230,7 +674,44 @@
         "parks": 2,
         "agency": "Independent Property Group",
         "agent": "Antoni Francki",
-        "type": "Apartment"
+        "type": "Apartment",
+        "tags": [
+            {
+                "title": "Culturally Welcoming",
+                "icon": "/icons/handshake.svg",
+                "color": "#FFF9F9"
+            },
+            {
+                "title": "International Student Friendly",
+                "icon": "/icons/globe.svg",
+                "color": "#FEF4FC"
+            },
+            {
+                "title": "Vegetarian Household",
+                "icon": "/icons/leaf.svg",
+                "color": "#FBFEED"
+            },
+            {
+                "title": "Languages Spoken: Mandarin, Hindi, Arabic",
+                "icon": "/icons/language.svg",
+                "color": "#FBF9FF"
+            },
+            {
+                "title": "Prayer Space Available",
+                "icon": "/icons/prayer.svg",
+                "color": "#F8FFF8"
+            },
+            {
+                "title": "Shared with University Students",
+                "icon": "/icons/graduation-cap.svg",
+                "color": "#F1F4FB"
+            },
+            {
+                "title": "Women-Only Sharehouse",
+                "icon": "/icons/park-girl.svg",
+                "color": "#F1FEFA"
+            }
+        ]
     },
     {
         "id": 15,
@@ -244,7 +725,44 @@
         "parks": 1,
         "agency": "Independent Property Group",
         "agent": "Antoni Francki",
-        "type": "Shared"
+        "type": "Shared",
+        "tags": [
+            {
+                "title": "Culturally Welcoming",
+                "icon": "/icons/handshake.svg",
+                "color": "#FFF9F9"
+            },
+            {
+                "title": "International Student Friendly",
+                "icon": "/icons/globe.svg",
+                "color": "#FEF4FC"
+            },
+            {
+                "title": "Vegetarian Household",
+                "icon": "/icons/leaf.svg",
+                "color": "#FBFEED"
+            },
+            {
+                "title": "Languages Spoken: Mandarin, Hindi, Arabic",
+                "icon": "/icons/language.svg",
+                "color": "#FBF9FF"
+            },
+            {
+                "title": "Prayer Space Available",
+                "icon": "/icons/prayer.svg",
+                "color": "#F8FFF8"
+            },
+            {
+                "title": "Shared with University Students",
+                "icon": "/icons/graduation-cap.svg",
+                "color": "#F1F4FB"
+            },
+            {
+                "title": "Women-Only Sharehouse",
+                "icon": "/icons/park-girl.svg",
+                "color": "#F1FEFA"
+            }
+        ]
     },
     {
         "id": 16,
@@ -258,7 +776,44 @@
         "parks": 2,
         "agency": "Independent Property Group",
         "agent": "Antoni Francki",
-        "type": "Apartment"
+        "type": "Apartment",
+        "tags": [
+            {
+                "title": "Culturally Welcoming",
+                "icon": "/icons/handshake.svg",
+                "color": "#FFF9F9"
+            },
+            {
+                "title": "International Student Friendly",
+                "icon": "/icons/globe.svg",
+                "color": "#FEF4FC"
+            },
+            {
+                "title": "Vegetarian Household",
+                "icon": "/icons/leaf.svg",
+                "color": "#FBFEED"
+            },
+            {
+                "title": "Languages Spoken: Mandarin, Hindi, Arabic",
+                "icon": "/icons/language.svg",
+                "color": "#FBF9FF"
+            },
+            {
+                "title": "Prayer Space Available",
+                "icon": "/icons/prayer.svg",
+                "color": "#F8FFF8"
+            },
+            {
+                "title": "Shared with University Students",
+                "icon": "/icons/graduation-cap.svg",
+                "color": "#F1F4FB"
+            },
+            {
+                "title": "Women-Only Sharehouse",
+                "icon": "/icons/park-girl.svg",
+                "color": "#F1FEFA"
+            }
+        ]
     },
     {
         "id": 17,
@@ -272,7 +827,44 @@
         "parks": 1,
         "agency": "Independent Property Group",
         "agent": "Antoni Francki",
-        "type": "Shared"
+        "type": "Shared",
+        "tags": [
+            {
+                "title": "Culturally Welcoming",
+                "icon": "/icons/handshake.svg",
+                "color": "#FFF9F9"
+            },
+            {
+                "title": "International Student Friendly",
+                "icon": "/icons/globe.svg",
+                "color": "#FEF4FC"
+            },
+            {
+                "title": "Vegetarian Household",
+                "icon": "/icons/leaf.svg",
+                "color": "#FBFEED"
+            },
+            {
+                "title": "Languages Spoken: Mandarin, Hindi, Arabic",
+                "icon": "/icons/language.svg",
+                "color": "#FBF9FF"
+            },
+            {
+                "title": "Prayer Space Available",
+                "icon": "/icons/prayer.svg",
+                "color": "#F8FFF8"
+            },
+            {
+                "title": "Shared with University Students",
+                "icon": "/icons/graduation-cap.svg",
+                "color": "#F1F4FB"
+            },
+            {
+                "title": "Women-Only Sharehouse",
+                "icon": "/icons/park-girl.svg",
+                "color": "#F1FEFA"
+            }
+        ]
     },
     {
         "id": 18,
@@ -286,7 +878,44 @@
         "parks": 2,
         "agency": "Independent Property Group",
         "agent": "Antoni Francki",
-        "type": "Apartment"
+        "type": "Apartment",
+        "tags": [
+            {
+                "title": "Culturally Welcoming",
+                "icon": "/icons/handshake.svg",
+                "color": "#FFF9F9"
+            },
+            {
+                "title": "International Student Friendly",
+                "icon": "/icons/globe.svg",
+                "color": "#FEF4FC"
+            },
+            {
+                "title": "Vegetarian Household",
+                "icon": "/icons/leaf.svg",
+                "color": "#FBFEED"
+            },
+            {
+                "title": "Languages Spoken: Mandarin, Hindi, Arabic",
+                "icon": "/icons/language.svg",
+                "color": "#FBF9FF"
+            },
+            {
+                "title": "Prayer Space Available",
+                "icon": "/icons/prayer.svg",
+                "color": "#F8FFF8"
+            },
+            {
+                "title": "Shared with University Students",
+                "icon": "/icons/graduation-cap.svg",
+                "color": "#F1F4FB"
+            },
+            {
+                "title": "Women-Only Sharehouse",
+                "icon": "/icons/park-girl.svg",
+                "color": "#F1FEFA"
+            }
+        ]
     },
     {
         "id": 19,
@@ -300,7 +929,44 @@
         "parks": 1,
         "agency": "Independent Property Group",
         "agent": "Antoni Francki",
-        "type": "Shared"
+        "type": "Shared",
+        "tags": [
+            {
+                "title": "Culturally Welcoming",
+                "icon": "/icons/handshake.svg",
+                "color": "#FFF9F9"
+            },
+            {
+                "title": "International Student Friendly",
+                "icon": "/icons/globe.svg",
+                "color": "#FEF4FC"
+            },
+            {
+                "title": "Vegetarian Household",
+                "icon": "/icons/leaf.svg",
+                "color": "#FBFEED"
+            },
+            {
+                "title": "Languages Spoken: Mandarin, Hindi, Arabic",
+                "icon": "/icons/language.svg",
+                "color": "#FBF9FF"
+            },
+            {
+                "title": "Prayer Space Available",
+                "icon": "/icons/prayer.svg",
+                "color": "#F8FFF8"
+            },
+            {
+                "title": "Shared with University Students",
+                "icon": "/icons/graduation-cap.svg",
+                "color": "#F1F4FB"
+            },
+            {
+                "title": "Women-Only Sharehouse",
+                "icon": "/icons/park-girl.svg",
+                "color": "#F1FEFA"
+            }
+        ]
     },
     {
         "id": 20,
@@ -314,6 +980,43 @@
         "parks": 2,
         "agency": "Independent Property Group",
         "agent": "Antoni Francki",
-        "type": "Apartment"
+        "type": "Apartment",
+        "tags": [
+            {
+                "title": "Culturally Welcoming",
+                "icon": "/icons/handshake.svg",
+                "color": "#FFF9F9"
+            },
+            {
+                "title": "International Student Friendly",
+                "icon": "/icons/globe.svg",
+                "color": "#FEF4FC"
+            },
+            {
+                "title": "Vegetarian Household",
+                "icon": "/icons/leaf.svg",
+                "color": "#FBFEED"
+            },
+            {
+                "title": "Languages Spoken: Mandarin, Hindi, Arabic",
+                "icon": "/icons/language.svg",
+                "color": "#FBF9FF"
+            },
+            {
+                "title": "Prayer Space Available",
+                "icon": "/icons/prayer.svg",
+                "color": "#F8FFF8"
+            },
+            {
+                "title": "Shared with University Students",
+                "icon": "/icons/graduation-cap.svg",
+                "color": "#F1F4FB"
+            },
+            {
+                "title": "Women-Only Sharehouse",
+                "icon": "/icons/park-girl.svg",
+                "color": "#F1FEFA"
+            }
+        ]
     }
 ]
