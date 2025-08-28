@@ -1,4 +1,5 @@
 import PropertyGrid from '@/components/Global/PropertyGrid';
+import AgentContactCard from '@/components/PropertySingle/AgentContactCard';
 import PropertyContent from '@/components/PropertySingle/PropertyContent';
 import PropertyShare from '@/components/PropertySingle/PropertyShare';
 import properties from '@/data/properties.json';
@@ -23,7 +24,9 @@ export default function PropertyPage({ params }) {
                 <div className="w-full md:w-1/4 lg:w-[60%] bg-white py-5">
                     <PropertyContent data={property} />
                 </div>
-                <div className="w-full md:w-3/4 lg:w-[40%] p-4"></div>
+                <div className="w-full md:w-3/4 lg:w-[40%] p-4">
+                    <AgentContactCard />
+                </div>
             </div>
             <div className="my-5">
                 <PropertyGrid
