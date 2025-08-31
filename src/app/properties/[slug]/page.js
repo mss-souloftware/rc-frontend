@@ -1,6 +1,7 @@
 import PropertyGrid from '@/components/Global/PropertyGrid';
 import AgentContactCard from '@/components/PropertySingle/AgentContactCard';
 import PropertyContent from '@/components/PropertySingle/PropertyContent';
+import PropertyGallery from '@/components/PropertySingle/PropertyGallery';
 import PropertyShare from '@/components/PropertySingle/PropertyShare';
 import properties from '@/data/properties.json';
 
@@ -18,7 +19,8 @@ export default function PropertyPage({ params }) {
     }
 
     return (
-        <div className="container mx-auto pb-5">
+        <div className="container mx-auto py-5">
+            <PropertyGallery />
             <PropertyShare />
             <div className="flex flex-col md:flex-row gap-6">
                 <div className="w-full md:w-1/4 lg:w-[60%] bg-white py-5">
